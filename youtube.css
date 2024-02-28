@@ -1,0 +1,64 @@
+
+
+.Thumbnail{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.author-pic{
+    width: 40px;
+    border-radius:50px;
+}
+
+.vid-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.top-half-container{
+    margin-bottom:12px;
+    position: relative;
+
+
+}
+
+.author-name,.vid-stats{
+    font-size: 12px;
+    color: grey;
+}
+
+.author-name{
+    margin-bottom: 4px;
+    color: grey;
+}
+
+.bottom-half-container{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.biggest-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap:40px;
+}
+
+.video-time{
+    background-color: black;
+    color:white;
+    position: absolute;
+    bottom:8px;
+    right: 5px;
+    font-family: robot,arial;
+    font-size:12px;
+    font-weight: 500px;
+    padding: 4px 4px 4px 4px;
+
+
+
+}
